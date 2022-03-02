@@ -1,1 +1,11 @@
-
+<?xml version="1.0"?>
+<CAT>
+<SUMMARY>Отсутствует пейджинг на форме Организации при результате более 10 страниц</SUMMARY>
+<STEPS> 
+  <1>Открыть https://kontur.ru/search?site=focus&query=&regionid="</1>
+  <2>Ввести в поисковую строку слово с результатом поиска более 10 страниц (например, счет)</2>
+  <3>Скрол к концу поисковой выдачи</3>
+  </STEPS>
+  <ACTUAL_RESULT>Пейджинг отсутствует</ACTUAL_RESULT>
+  <EXPECTED_RESULT>Пейджинг присутствует</EXPECTED_RESULT>
+</CAT>
